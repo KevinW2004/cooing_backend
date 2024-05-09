@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cooing?characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: 123qweASD
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
